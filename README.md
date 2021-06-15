@@ -37,6 +37,9 @@ Deployment is done by using [Firebase](https://firebase.google.com/) (One of my 
 
 ![SpaceX Launch Program preview](https://raw.githubusercontent.com/guptaashwanee/spacex/master/SpaceX%20Launch%20Program.jpg)
 
+This website is completely SEO optimized and got high performance Lighthouse score. [Lighthouse Score](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fspacex-launchh.web.app%2F)
+![SpaceX Launch Program preview SEO](https://raw.githubusercontent.com/guptaashwanee/spacex/master/SpaceX%20Launch%20Program%20SEO.jpg)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/guptaashwanee/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-brightgreen?style=social&logo=linkedin" alt="guptaashwanee" /></a>

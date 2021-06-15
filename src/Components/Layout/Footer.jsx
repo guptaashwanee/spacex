@@ -5,10 +5,18 @@ const Footer = () => {
 		<div className="footer">
 			<h6>
 				Developed by:{" "}
-				<a href="https://github.com/guptaashwanee" target="_black">
-					Ashwanee Kumar Gupta
-				</a>
+				<b>
+					<a href="https://github.com/guptaashwanee" target="_black">
+						Ashwanee Kumar Gupta
+					</a>
+				</b>
 			</h6>
+			<p style={{ fontSize: "15px" }}>
+				View on Github{" "}
+				<a href="https://github.com/guptaashwanee/spacex" target="_black">
+					SpaceX Launch Program
+				</a>
+			</p>
 		</div>
 	);
 };
