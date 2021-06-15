@@ -9,8 +9,6 @@ There are lots of filter options available to find accurate results.
 
 ## Quick start
 
-## Running documentation locally
-
 In the project directory, you can run:
 
 ### `npm install`
@@ -19,14 +17,14 @@ Run npm install to install the NPM dependencies.
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if any edits are made.\
+The page will reload if any edits are made.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 Our app is ready to be deployed!
 
 ### Deployment
@@ -36,6 +34,8 @@ Deployment is done by using [Firebase](https://firebase.google.com/) (One of my 
 ### Live view
 
 [SpaceX Launch Program](https://spacex-launchh.web.app/)
+
+![SpaceX Launch Program preview](https://raw.githubusercontent.com/guptaashwanee/spacex/master/SpaceX%20Launch%20Program.jpg)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
