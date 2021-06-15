@@ -1,0 +1,121 @@
+.home {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+@media screen and (max-width: 700px) {
+	.home .left {
+		width: 100%;
+	}
+	.home .right {
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.home .right .programs {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1024px) and (min-width: 700px) {
+	.home .left {
+		width: 33.33%;
+	}
+	.static {
+		top: 25px;
+		position: sticky;
+	}
+	.home .right {
+		width: 66.66%;
+		flex-wrap: wrap;
+	}
+	.home .right .programs {
+		width: calc(50% - 20px);
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 auto;
+		flex: 0 0 auto;
+	}
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+	.home .left {
+		width: 20%;
+	}
+	.static {
+		top: 25px;
+		position: sticky;
+	}
+	.home .right {
+		width: 80%;
+		flex-wrap: wrap;
+	}
+	.home .right .programs {
+		width: calc(25% - 20px);
+	}
+}
+.home .left .filters {
+	background-color: white;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.home .right .programs {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.home .right {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+}
+.home .right .programs .container {
+	padding: 5px;
+}
+.programs h5 {
+	margin-bottom: 7px;
+}
+.programs .prog_img {
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.programs .prog_img img {
+	width: 80%;
+	height: 80%;
+}
+
+.years,
+.successfulLaunch,
+.successfulLanding {
+	display: flex;
+	flex-wrap: wrap;
+}
+.years .btn,
+.successfulLaunch .btn,
+.successfulLanding .btn {
+	width: calc(50% - 30px);
+	background-color: #c4df9a;
+	border-radius: 5px;
+	margin: 5px;
+	margin-left: 15px;
+	margin-right: 15px;
+	cursor: pointer;
+	padding: 3px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.years .btn.selected,
+.successfulLanding .btn.selected,
+.successfulLaunch .btn.selected {
+	background-color: #7bb900;
+}
